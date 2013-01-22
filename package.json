@@ -1,0 +1,33 @@
+{
+	"name": "pipeline-cache",
+	"version": "0.0.1",
+	"main": "lib/queuedcache",
+	"description": "A simple pipeline cache architecture. Right now only supports an in-memory cache.",
+	"keywords": [
+		"cache",
+		"async"
+	],
+	"author": {
+		"name": "Nathan Sculli",
+		"email": "nathan.sculli@kapinko.com",
+		"url": "www.kapinko.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kapkinko/simple-async-cache.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"devDependencies": {
+		"mocha": "1.8.x",
+		"chai": "1.4.x",
+		"sinon": "1.5.x",
+		"sinon-chai": "2.3.x"
+	},
+	"optionalDependencies": {
+		"redis": "0.8.x",
+		"hiredis": "0.1.x"
+	}
+}
